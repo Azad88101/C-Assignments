@@ -29,7 +29,7 @@ int main() {
 
 
     printf("Enter Character value:- ");
-    scanf("%c", &e);
-    printf("'%c' it is a character value \n", e);
+    scanf(" %c", &e);
+    printf("'%c' it is a character value.", e);
     return 0;
 }
