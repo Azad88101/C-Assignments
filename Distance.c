@@ -9,6 +9,11 @@ int main() {
 
 
     printf("Enter the distance of City 1 in (km):- ");
+
+
+
+
+    
     scanf("%f", &city1);
     printf("Enter the distance of City 2 in (km):- ");
     scanf("%f", &city2);
