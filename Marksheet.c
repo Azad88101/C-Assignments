@@ -20,7 +20,7 @@ int main() {
 
     int aggregateMarks = mathematics + physics + computer_science + chemistry + english;
     
-    float totalPercentage = (mathematics + physics + computer_science + chemistry + english) / maximumMarks * 100;
+    float totalPercentage = (mathematics + physics + computer_science + chemistry + english) * 100 / maximumMarks;
     
     printf("Total marks obtained %d \n", aggregateMarks);
     printf("Total percentage:- %f", totalPercentage);
