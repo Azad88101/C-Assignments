@@ -20,7 +20,7 @@ int main() {
 
     int aggregateMarks = mathematics + physics + computer_science + chemistry + english;
     
-    float totalPercentage = (mathematics + physics + computer_science + chemistry + english) * 100 / maximumMarks;
+    float totalPercentage = (mathematics + physics + computer_science + chemistry + english) * 100 / maximumMarks; // Error was occured due to Operator Precedence
     
     printf("Total marks obtained %d \n", aggregateMarks);
     printf("Total percentage:- %f", totalPercentage);
